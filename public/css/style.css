@@ -1,0 +1,119 @@
+@font-face {
+    font-family: ubuntuL;
+    src: url(../fonts/ubuntu/Ubuntu-Light.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    
+}
+body{
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),
+    url(../img/background1.jpeg);
+    background-position: center;
+    background-size:cover ;
+    position:relative;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    
+}
+.logo{
+    width: 320px;
+    border-radius: 5em;
+}
+nav{
+    display: flex;
+    padding: 1% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-links{
+    flex: 1;
+    text-align: right;
+}
+.navigation-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navigation-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navigation-links ul li a:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+    
+}
+.navigation-links ul li a:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.main-text{
+    color: white;
+    text-align: center;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.main-text p{
+    padding: 4%;
+}
+.main-text a{
+    background-color: #0087ca;
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    border-radius: 5%;
+}
+.main-text a:hover{
+    border: 3px solid black;
+    background-color: #096d9f;
+    color: white;
+}
+@media screen and (max-width: 400px) {
+    .logo{
+        content: url(../img/favicon.png);
+        width: 80%;
+        padding-top: 1%;
+    }
+    .navigation-links ul li a{
+        font-size: 12px;
+        padding: 0px;
+    }
+    .navigation-links ul{
+        padding-left: 0rem;
+    }
+    .navigation-links{
+        text-align: left;
+    }
+    nav{
+        padding: 7% 4%;
+    }
+    .navigation-links ul li {
+        padding: 4px 10px;
+    }
+    .main-text{
+        font-size: 11px;
+    }
+}
+footer{
+    text-align: center;
+}
