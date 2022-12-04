@@ -23,7 +23,8 @@ body{
     
 }
 .logo{
-    width: 50px;
+    width: 320px;
+    border-radius: 5em;
 }
 nav{
     display: flex;
@@ -86,4 +87,33 @@ nav{
     border: 3px solid black;
     background-color: #096d9f;
     color: white;
+}
+@media screen and (max-width: 400px) {
+    .logo{
+        content: url(../img/favicon.png);
+        width: 80%;
+        padding-top: 1%;
+    }
+    .navigation-links ul li a{
+        font-size: 12px;
+        padding: 0px;
+    }
+    .navigation-links ul{
+        padding-left: 0rem;
+    }
+    .navigation-links{
+        text-align: left;
+    }
+    nav{
+        padding: 7% 4%;
+    }
+    .navigation-links ul li {
+        padding: 4px 10px;
+    }
+    .main-text{
+        font-size: 11px;
+    }
+}
+footer{
+    text-align: center;
 }
