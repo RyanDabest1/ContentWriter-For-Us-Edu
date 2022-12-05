@@ -114,7 +114,7 @@ nav{
         font-size: 11px;
     }
 }
-@media screen and (max-width: 360px ) {
+@media screen and (max-width: 376px ) {
     .navigation-links ul li a{
         font-size: 9px;
         padding: 0px;
