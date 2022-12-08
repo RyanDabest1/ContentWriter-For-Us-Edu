@@ -40,3 +40,8 @@ nav{
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+div.row{
+    margin-top: 10%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
