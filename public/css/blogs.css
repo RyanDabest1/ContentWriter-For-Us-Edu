@@ -45,3 +45,36 @@ div.row{
     margin-left: 6%;
     margin-right: 6%;
 }
+@media screen and (max-width: 716px) {
+    .logo{
+        content: url(../img/favicon.png);
+        width: 80%;
+        padding-top: 1%;
+    }
+    .navigation-links ul li a{
+        font-size: 12px;
+        padding: 0px;
+    }
+    .navigation-links ul{
+        padding-left: 0rem;
+    }
+    .navigation-links{
+        text-align: left;
+    }
+    nav{
+        padding: 7% 4%;
+    }
+    .navigation-links ul li {
+        padding: 4px 10px;
+    }
+    .main-text{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 376px ) {
+    .navigation-links ul li a{
+        font-size: 9px;
+        padding: 0px;
+    }
+    
+}
