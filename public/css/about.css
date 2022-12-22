@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 320px;
+    border-radius: 5em;
+}
+nav{
+    display: flex;
+    padding: 1% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-links{
+    flex: 1;
+    text-align: right;
+}
+.navigation-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navigation-links ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+}
+.navigation-links ul li a:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+    
+}
+.navigation-links ul li a:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+div.row{
+    margin-top: 10%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.about{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+.aboutSect{
+    background-image: url(../img/harvard.jpeg);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    overflow: hidden;
+    padding: 100px 0;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.in-container{
+    width: 55%;
+    float: right;
+    background-color: white;
+    border-radius: 5%;
+    padding: 40px;
+}
+.in-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text{
+    font-size: 15px;
+    color: rgb(1, 3, 39);
+}
+.focus{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    color: #0087ca;
+}
+
+@media screen and (max-width: 1000px) {
+    .aboutSect{
+        background-size: 100%;
+        border-radius: 0%;
+        padding: 100px 40px;
+    }
+    .in-container{
+        width: 100%;
+    }
+    .logo{
+        content: url(../img/favicon.png);
+        width: 80%;
+        padding-top: 1%;
+    }
+    .navigation-links ul li a{
+        font-size: 12px;
+        padding: 0px;
+    }
+    .navigation-links ul{
+        padding-left: 0rem;
+    }
+    .navigation-links{
+        text-align: left;
+    }
+    nav{
+        padding: 7% 4%;
+    }
+    .navigation-links ul li {
+        padding: 4px 10px;
+    }
+    .main-text{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .aboutSect{
+        padding: 0;
+    }
+    .in-container{
+        padding: 50px;
+        border-radius: 0;
+    }
+    .focus{
+        gap: 20px;
+        font-size: 12px;
+    }
+    .text{
+        font-size: 11px;
+    }
+}
