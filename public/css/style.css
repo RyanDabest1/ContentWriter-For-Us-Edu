@@ -122,5 +122,44 @@ nav{
     
 }
 footer{
-    text-align: center;
+    display: flex;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background-color: #000000;
+    min-height:80px;
+    padding: 5px 50px;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+}
+footer .Icons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+
+}
+
+footer .Icons li {
+    list-style: none;
+}
+.Icons li a{
+    font-size: 2em;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.3s;
+}
+footer .Icons li a:hover{
+    transform: translateY(-5px  );
+}
+.navigation-links ul li a:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+div.row{
+    margin-top: 10%;
+    margin-left: 6%;
+    margin-right: 6%;
 }
