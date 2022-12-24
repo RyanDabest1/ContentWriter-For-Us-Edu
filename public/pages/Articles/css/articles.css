@@ -67,6 +67,17 @@ nav{
         font-size: 11px;
     }
 }
+.mainText{
+    margin-left: 5%;
+    margin-right: 30%;
+    margin-top: 5%;
+}
+.carousel{
+    width: 60%;
+    margin-left: 10%;
+    height: 30%;
+    margin-top: 3%;
+}
 @media screen and (max-width: 400px) {
     .navigation-links ul li a{
         font-size: 8px;
