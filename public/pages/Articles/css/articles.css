@@ -21,7 +21,7 @@ nav{
 .navigation-links ul li a{
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
 }
 .navigation-links ul li a:after{
   content: '';
@@ -69,7 +69,7 @@ nav{
 }
 @media screen and (max-width: 376px ) {
     .navigation-links ul li a{
-        font-size: 9px;
+        font-size: 8px;
         padding: 0px;
     }
 }
