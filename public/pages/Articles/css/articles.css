@@ -1,0 +1,81 @@
+.logo{
+    width: 320px;
+    border-radius: 5em;
+}
+nav{
+    display: flex;
+    padding: 1% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-links{
+    flex: 1;
+    text-align: right;
+}
+.navigation-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navigation-links ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+}
+.navigation-links ul li a:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+    
+}
+
+.navigation-links ul li a:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+@media screen and (max-width: 716px) {
+    .logo{
+        content: url(../img/favicon.png);
+        width: 80%;
+        padding-top: 1%;
+    }
+    .navigation-links ul li a{
+        font-size: 12px;
+        padding: 0px;
+    }
+    .navigation-links ul{
+        padding-left: 0rem;
+    }
+    .navigation-links{
+        text-align: left;
+    }
+    nav{
+        padding: 7% 4%;
+    }
+    .navigation-links ul li {
+        padding: 4px 10px;
+    }
+    .main-text{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 376px ) {
+    .navigation-links ul li a{
+        font-size: 9px;
+        padding: 0px;
+    }
+}
+@media screen and (max-width: 576px) {
+    div.col-sm-6{
+        margin-top: 9%;
+    }
+    
+}
