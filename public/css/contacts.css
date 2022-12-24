@@ -93,8 +93,7 @@ div.row{
 footer{
     display: flex;
     width: 100%;
-    position: absolute;
-    bottom: 0;
+    position: relative;
     background-color: #000000;
     min-height: 100px;
     padding: 20px 50px;
