@@ -66,11 +66,34 @@ nav{
     .main-text{
         font-size: 11px;
     }
+    div h1{
+        font-size: 15px;
+    }
 }
+@media screen and (max-width: 600px) {
+    .carousel > *{
+        display: none;
+    }
+    .title{
+        font-size: 20px;
+    }
+    p.mainText{
+        margin-right: 0px;
+    }
+}
+
+div h1{
+    margin-left: 5%;
+    margin-top: 3%;
+    font-size: 30px;
+    font-style: italic;
+    
+}
+
 .mainText{
     margin-left: 5%;
-    margin-right: 30%;
-    margin-top: 5%;
+    margin-right: 20%;
+    margin-top: 3%;
 }
 .carousel{
     width: 60%;
