@@ -43,7 +43,7 @@ nav{
 }
 @media screen and (max-width: 716px) {
     .logo{
-        content: url(/public/img/favicon.png);
+        content: url(../img/favicon.png);
         width: 80%;
         padding-top: 1%;
     }
