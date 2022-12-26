@@ -33,9 +33,18 @@ nav{
   left: 0;
   background-color: #0087ca;
   transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+  transition: transform 0.2s ease-out;
     
 }
+div.card{
+    box-shadow: 0px 0px 0px grey;
+  -webkit-transition:  box-shadow .2s ease-out;
+     box-shadow: .8px .9px 3px #0087ca;
+}
+div.card:hover{ 
+    box-shadow: 1px 8px 20px #0087ca;
+   -webkit-transition:  box-shadow .2s ease-in;
+ }
 
 .navigation-links ul li a:hover:after{
     transform: scaleX(1);
