@@ -38,8 +38,8 @@ nav{
 }
 img{
     box-shadow: 0px 0px 0px grey;
-  -webkit-transition:  box-shadow .2s ease-out;
-     box-shadow: .8px .9px 3px grey;
+    -webkit-transition:  box-shadow .2s ease-out;
+    box-shadow: .8px .9px 3px grey;
 }
 img:hover{
     box-shadow: 1px 8px 20px grey;
