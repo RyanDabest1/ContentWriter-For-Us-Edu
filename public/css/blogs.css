@@ -106,3 +106,18 @@ div.row{
 
 }
 
+.search{
+    text-align: center;
+}
+
+.searchLab{
+    display: block;
+}
+#searchBar{
+    width: 50%;
+    border-radius: 15px;
+    border: 2px #0087ca solid ;
+}
+.hide{
+    display: none !important; 
+}
