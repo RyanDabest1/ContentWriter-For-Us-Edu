@@ -134,7 +134,6 @@ function addArticles(array){
         
 `
 
-console.log('even')
 let continueRow = body.lastChild;
 let row = document.createElement('div');
 row.classList.add('col-sm-6')
@@ -153,7 +152,6 @@ continueRow.append(row)
               </div>
               </div>
      `
-console.log('odd')
 let startRow = document.createElement('div');
 startRow.classList.add('row');
 startRow.style.marginTop = '3%';
