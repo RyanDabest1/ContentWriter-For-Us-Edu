@@ -27,7 +27,7 @@ let articles = [
 
     },
     {
-        "title" : "Us Community Collage",
+        "title" : "US Community Collage",
         "id" : "004",
         "description" : "A mix of information about Community Collages in US",
         "articleLink" : "https://www.facebook.com/permalink.php?story_fbid=pfbid02AVGDcaVx7tDv53oe3RFDQRDWkJWERRiDt7apzhTwu9pNW7Rb1ZzM38EzGVRYjwrel&id=100088420233552",
