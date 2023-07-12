@@ -114,6 +114,13 @@ let articles = [
         "localPath" : "./Articles/Article014.html",
 
     },
+    {
+        "title" : "Live in Japan, Get an American education",
+        "id" : "015",
+        "description" : "Learn more about the topic!",
+        "articleLink" : "https://www.facebook.com/permalink.php?story_fbid=pfbid02zTjG2b8H9eDDtYojWE5ooZo44CUpWa9pEMqzdWexKgh2n9ZHzS4UfMRjD8s2E31ul&id=100088420233552",
+        "localPath" : "./Articles/Article015.html"
+    }
 ]
 
 

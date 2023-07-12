@@ -22,7 +22,7 @@ console.log("Latest article id : " + highestCount)
 getLatestArticle()
 
 
-let title = ''
+let title = 'Live in Japan, Get an American education'
 let content1 = ``
 let content2 = ``
 let img1 = ''
